@@ -1,38 +1,51 @@
-# CRUDM3S3
-🧑‍💻 CRUD de Usuarios  Este es un proyecto de CRUD de usuarios desarrollado con HTML, Bootstrap, y Node.js, utilizando json-server como API REST simulada. Permite crear, leer, actualizar y eliminar usuarios desde una interfaz amigable.
+ CRUD de Usuarios – M3S3
+Este es un proyecto de CRUD de usuarios desarrollado con HTML, Bootstrap y Node.js, utilizando json-server como API REST simulada.
+Permite crear, leer, actualizar y eliminar usuarios desde una interfaz amigable y simple.
 
-🚀 Requisitos Previos
+✅ Requisitos Previos
+Asegúrate de tener instaladas las siguientes herramientas:
 
-Antes de ejecutar este proyecto, asegúrate de tener instalado lo siguiente:
-✅ Verificar Node.js y npx
+Node.js
 
-Abre una terminal y ejecuta:
+npx (se instala con Node.js)
 
+Puedes verificar si ya están instalados ejecutando:
+
+bash
+Copiar
+Editar
 node -v
 npx -v
-
 📦 Instalación de json-server
+Instala json-server de forma global con el siguiente comando:
 
-Instala json-server de forma global (si aún no lo tienes):
-
+bash
+Copiar
+Editar
 npm install -g json-server
-
-🛠️ Cómo Ejecutar el Proyecto
-1. Clona el repositorio
-
+⚙️ Cómo Ejecutar el Proyecto
+1️⃣ Clona el repositorio
+bash
+Copiar
+Editar
 git clone https://github.com/tu-usuario/tu-repo.git
 cd tu-repo
+2️⃣ Inicia el servidor
+Asegúrate de estar en la carpeta donde se encuentra db.json, luego ejecuta:
 
-2. Inicia json-server
-
-Asegúrate de estar en la carpeta del proyecto donde está el archivo db.json, luego ejecuta:
-
+bash
+Copiar
+Editar
 json-server --watch db.json --port 3000
+Esto iniciará un servidor en:
 
-Esto iniciará un servidor en: http://localhost:3000
-3. Abre index.html
+🌐 http://localhost:3000
 
-Simplemente abre el archivo index.html en tu navegador (doble clic o botón derecho → abrir con navegador).
-También puedes usar una extensión como Live Server en VSCode para una mejor experiencia de desarrollo.
+3️⃣ Abre el archivo index.html
+Puedes abrirlo directamente en tu navegador:
 
+Opción 1: Doble clic en el archivo
 
+Opción 2: Click derecho → “Abrir con navegador”
+
+💡 Para una mejor experiencia, puedes usar la extensión Live Server de VSCode.
