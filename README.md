@@ -1,7 +1,7 @@
 # CRUDM3S3
-🧑‍💻 CRUD de Usuarios  Este es un proyecto de CRUD de usuarios desarrollado con HTML, Bootstrap, y Node.js, utilizando json-server como API REST simulada. Permite crear, leer, actualizar y eliminar usuarios desde una interfaz amigable.
+#🧑‍💻 CRUD de Usuarios  Este es un proyecto de CRUD de usuarios desarrollado con HTML, Bootstrap, y Node.js, utilizando json-server como API REST simulada. Permite crear, leer, actualizar y eliminar usuarios desde una interfaz amigable.
 
-🚀 Requisitos Previos
+#🚀 Requisitos Previos
 
 Antes de ejecutar este proyecto, asegúrate de tener instalado lo siguiente:
 ✅ Verificar Node.js y npx
@@ -11,13 +11,13 @@ Abre una terminal y ejecuta:
 node -v
 npx -v
 
-📦 Instalación de json-server
+#📦 Instalación de json-server
 
 Instala json-server de forma global (si aún no lo tienes):
 
 npm install -g json-server
 
-🛠️ Cómo Ejecutar el Proyecto
+#🛠️ Cómo Ejecutar el Proyecto
 1. Clona el repositorio
 
 git clone https://github.com/tu-usuario/tu-repo.git
